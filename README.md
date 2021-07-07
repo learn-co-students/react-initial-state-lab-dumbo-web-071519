@@ -71,3 +71,10 @@ determine what the starting count should be.
 ## Resources
 
 - [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
+
+
+          render () {
+              const message = this.state.secondsLeft === 0 ? 'Boom!' : `${this.state.secondsLeft} seconds left before I go boom!`;
+  return (
+   
+  )
